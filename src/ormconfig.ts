@@ -10,7 +10,8 @@ const config: PostgresConnectionOptions = {
   database: 'mediumclone',
   //entities: [__dirname + '/**/*.entity{.ts,.js}'],
   entities: [TagEntity],
-  synchronize: true,
+  synchronize: false,
+  migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
 };
 
 export default config;
