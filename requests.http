@@ -6,3 +6,11 @@ GET http://localhost:3000/tags
 ###
 
 POST http://localhost:3000/users
+
+{
+    "user":{
+        "username": "radu",
+        "email": "radu@gmail.com",
+        "password": "123"
+    }
+}
