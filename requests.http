@@ -33,3 +33,15 @@ Content-Type: application/json
 GET http://localhost:3000/user
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
+
+###
+
+PUT http://localhost:3000/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
+
+{
+    "user":{
+        "bio": "M-am nascut langa Carpati"   
+    }
+}
