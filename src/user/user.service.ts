@@ -15,6 +15,7 @@ export class UserService {
     @InjectRepository(UserEntity)
     private readonly userRepository: Repository<UserEntity>,
   ) {}
+
   async createUser(createUserDto: CreateUserDto):Promise<UserEntity> {
 
     const userByEmail = await this.userRepository.findOne({
@@ -34,6 +35,14 @@ export class UserService {
     Object.assign(newUser, createUserDto);
     console.log('newUser', newUser);
     return await this.userRepository.save(newUser);
+  }
+
+  async findById(id: number): Promise<UserEntity> {
+    return this.userRepository.findOne({
+      where: {
+        id
+      }
+  });
   }
 
   async login(loginUserDto: LoginUserDto): Promise<UserEntity> {
