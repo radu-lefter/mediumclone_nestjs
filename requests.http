@@ -1,8 +1,10 @@
+#Tags routes
 ###
 
 GET http://localhost:3000/tags
 
 
+#User routes
 ###
 
 POST http://localhost:3000/users
@@ -43,5 +45,19 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 {
     "user":{
         "bio": "M-am nascut langa Carpati"   
+    }
+}
+
+#Article routes
+###
+
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+    "article":{
+        "username": "radu",
+        "email": "radu@gmail.com",
+        "password": "123"
     }
 }
