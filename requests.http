@@ -66,7 +66,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 
 ###
 
-GET http://localhost:3000/articles?limit=2
+GET http://localhost:3000/articles/example-title-6-53rpor
 Content-Type: application/json
 
 
@@ -90,3 +90,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
         "body": "Some other filler text"    
     }
 }
+
+
+###
+
+POST http://localhost:3000/articles/example-title-6-53rpor/favorite
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
