@@ -63,3 +63,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
         "tagList": ["react", "node", "python"]
     }
 }
+
+###
+
+GET http://localhost:3000/articles/example-title-2-vkh42e
+Content-Type: application/json
