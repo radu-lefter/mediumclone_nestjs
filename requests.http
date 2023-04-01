@@ -57,7 +57,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 
 {
     "article":{
-        "title": "Example title",
+        "title": "Example title 2",
         "description": "Lorem ipsum  something something something something something something",
         "body": "Even more filler text", 
         "tagList": ["react", "node", "python"]
