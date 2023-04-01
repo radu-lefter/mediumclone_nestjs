@@ -57,16 +57,16 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 
 {
     "article":{
-        "title": "Example title 2",
+        "title": "Example title 6",
         "description": "Lorem ipsum  something something something something something something",
         "body": "Even more filler text", 
-        "tagList": ["react", "node", "python"]
+        "tagList": ["vue", "golang", "php"]
     }
 }
 
 ###
 
-GET http://localhost:3000/articles/example-title-2-vkh42e
+GET http://localhost:3000/articles?limit=2
 Content-Type: application/json
 
 
