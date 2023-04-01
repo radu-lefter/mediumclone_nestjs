@@ -97,3 +97,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 POST http://localhost:3000/articles/example-title-6-53rpor/favorite
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
+
+
+###
+
+DELETE http://localhost:3000/articles/example-title-6-53rpor/favorite
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
