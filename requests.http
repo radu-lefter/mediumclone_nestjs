@@ -75,3 +75,18 @@ Content-Type: application/json
 DELETE http://localhost:3000/articles/fooo
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDM2NDg5NX0.HgR5zxhJ-6xzxgIW2bP4RBSpsNS0ZOvn_0ti2T6g6zg
+
+
+###
+
+PUT http://localhost:3000/articles/example-title-2-vkh42e
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
+
+{
+    "article":{
+        "title": "Example title 3",
+        "description": "Lorem ipsum  something something ",
+        "body": "Some other filler text"    
+    }
+}
