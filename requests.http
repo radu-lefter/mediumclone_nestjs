@@ -53,11 +53,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 
 POST http://localhost:3000/articles
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDM2NDg5NX0.HgR5zxhJ-6xzxgIW2bP4RBSpsNS0ZOvn_0ti2T6g6zg
 
 {
     "article":{
-        "username": "radu",
-        "email": "radu@gmail.com",
-        "password": "123"
+        "title": "Example title",
+        "description": "Lorem ipsum  something something something something something something",
+        "body": "Even more filler text", 
+        "tagList": ["react", "node", "python"]
     }
 }
