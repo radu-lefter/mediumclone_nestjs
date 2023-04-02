@@ -113,3 +113,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 GET http://localhost:3000/profiles/radu
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDQ1NjMzMn0.jC8BDujEjzbqRBkCQozbGKmhkoSPqY5dqdoZlJkzjrQ
+
+
+###
+
+POST http://localhost:3000/profiles/foo/follow
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDQ1NjMzMn0.jC8BDujEjzbqRBkCQozbGKmhkoSPqY5dqdoZlJkzjrQ
