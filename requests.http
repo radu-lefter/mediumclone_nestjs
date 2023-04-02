@@ -53,14 +53,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hb
 
 POST http://localhost:3000/articles
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDM5Mjc2OH0.9OGyPClrsQ725HZ9fSlctqP6GiQoetXl9tevMwKVLFc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcm5hbWUiOiJmb28iLCJlbWFpbCI6ImZvb0BnbWFpbC5jb20iLCJpYXQiOjE2ODA0Njk2NDB9.ps7XTU-qTVIgIHGxxJU1Mjt0FmPKrhVagYnEp3oThtk
 
 {
     "article":{
-        "title": "Example title 7",
+        "title": "Article from foo 3",
         "description": "Lorem ipsum  something something something something something something",
         "body": "Even more filler text", 
-        "tagList": ["vue", "golang", "php"]
+        "tagList": ["react", "python", "php"]
     }
 }
 
@@ -106,13 +106,18 @@ DELETE http://localhost:3000/articles/example-title-6-53rpor/favorite
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI3NzMxOX0.eKOstdbWq4zzGHtMn7kwZ3R1YQlxvTacffUA9oB5xFU
 
+###
+
+GET http://localhost:3000/articles/feed
+Content-Type: application/json
+Authorization: Berer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDQ1NjMzMn0.jC8BDujEjzbqRBkCQozbGKmhkoSPqY5dqdoZlJkzjrQ
 
 #Profile routes
 ###
 
 GET http://localhost:3000/profiles/foo
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDQ1NjMzMn0.jC8BDujEjzbqRBkCQozbGKmhkoSPqY5dqdoZlJkzjrQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJyYWR1IiwiZW1haWwiOiJyYWR1QGdtYWlsLmNvbSIsImlhdCI6MTY4MDQ2OTcwN30.GTm-Pyj8DS5MtmM8lGzP04s2qsgrcypxXk4G-NzhksY
 
 
 ###
